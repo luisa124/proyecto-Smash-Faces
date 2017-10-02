@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0eef0;
+}
+
+.cabeza {
+    background-color: #555555;
+    width: 100%;
+    height: 80px;
+}
+
+.fondo {
+    background-color: #b2e1e3;
+}
+.parrafo {
+    font-size: 25px;
+}
+.occiones select {
+    margin-top: 2%;
+    font-size: 18px;
+    background-color: #cccccc;
+    color: white;
+    height: 26px;
+    width: 250%;
+}
+
+/* estilo para la caja del imagen */
+.cajita {
+    background-color: #9b9595;
+    height: 300px;
+    width: 400%;
+}
+
+.input {
+    height: 30px;
+    width: 80%;
+}
+.button {
+    background-color: #fc942d;
+    align-content: center;
+}
+
+
