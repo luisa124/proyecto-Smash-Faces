@@ -9,7 +9,10 @@ body {
     width: 100%;
     height: 80px;
 }
-
+.cabeza a {
+    color: #fc942d;
+    margin-left: 6%;
+}
 .letras {
     margin-top: 3%;
     font-size: 18px;
@@ -42,24 +45,13 @@ body {
     margin-top: 2%;
     font-size: 18px;
 }
-option {
-    font-weight: normal;
-    display: block;
-    white-space: pre;
-    min-height: 1.2em;
-    padding: 0px 2px 1px;
-    padding-top: 0px;
-    padding-right: 2px;
-    padding-bottom: 1px;
-    padding-left: 2px;
-}
 
 /* estilo para la caja del imagen */
 .cajita {
     background-image: url(http://4.bp.blogspot.com/-bJqL4FP_YiE/VS5-Z2qU-fI/AAAAAAAAO3w/OcU-hIGpNjc/s1600/17.gif);
     height: 500px;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 18%;
 }
 .cajita .img {
     background-color: white;
@@ -67,12 +59,12 @@ option {
     margin-left: 3%;
     border-style: double;
     color: white;
-    height: 380px;
+    height: 430px;
     width: 35%;
 }
 .cajita .pInput {
     background-color: #b2e1e3;
-    height: 380px;
+    height: 430px;
     width: 59%;
     margin-left: 0%;
     margin-top: 3%;
@@ -120,8 +112,8 @@ option {
 
 /*--------- estilo para mi footer --------*/
 footer {
-    background-color: #fc942d;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 20px;
     margin: 0;
     padding: 0;
