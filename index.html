@@ -18,44 +18,62 @@
     <div class="caja">
         <div class="container fondo">
            <div class="col-xs-12 col-md-12 col-md-offset-0">
-               <div class="col-xs-12 col-md-2 parrafo">
+              <div class="col-xs-12 col-md-12 col-md-offset-0 letras">
+                  <p>Bienvenida al juego de Smash Faces, tu misión es  poder identificar a todas tus compañeras de clase , ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente imagen.
+						Buena Suerte!</p>
+              </div>
+               <div class="col-md-2 parrafo">
                    <p>Elije tu sede:</p>
                </div>
                 <div class="col-xs-12 col-md-1 occiones">
                     <select>
-                      <option value="lima"><a href="lima">Arequipa</a></option>
-                      <option value="chile"><a href="chile">Chile</a></option>
-                      <option value="aqp" selected><a href="aqp">Lima</a></option>
+                      <option value=""><a href="">sede</a></option>
+                      <option value=""><a href="#" id="mostrar">Mexico</a></option>
+                      <option value=""><a href="#" id="mostrar">Peru</a></option>
+                      <option value=""><a href="#" id="mostrar">Chile</a></option>
                     </select>
                 </div>
-                <div class="col-xs-12 col-md-1 col-md-offset-6 punto">
-                <p>Puntos:</p>
-                </div><div class="col-xs-12 col-md-1 col-md-offset-0 respuesta">
-                <input type="text">
+                <div class="col-xs-12 col-md-1 col-md-offset-6">
+                   <p class="punto">Puntos:</p>
+                </div>
+                <div class="col-xs-12 col-md-1 col-md-offset-0 respuesta">
+                   <p id="demo">0 punto</p>
                 </div>
            </div>
             
-            <div class="col-xs-12 col-md-1 col-md-offset-0 coders">
-                <div class="cajita">
-                    
+            <section class="cajita">
+                <div>
+                    <div>
+                      <div class="col-md-1 col-md-offset-0 img">
+                           <img width="00" src="" class="target">
+                      </div>
+                    </div>
+                    <div class="col-md-1 col-md-offset-0 pInput">
+                       <div class="pInput1">
+                           <p>selecciona el nombre:</p>
+                           <input type="text" id="inputText" placeholder="NOMBRE">
+                       </div>
+                       <div class="buton">
+                           <input type="button" id="comprobar" value="COMPROBAR">
+                       </div>
+                    </div>
                 </div>
-            </div>
-               <div class="col-xs-12 col-md-1 col-md-offset-2 coders">
-                <div class="cajita">
-                    <p>Ingresa su nombre</p>
-                    <input class="input" type="text" placeholder="Nombre">
-                    <button type="button">COMROBAR</button>
-                </div>
-            </div>
-            
-            
+            </section>
         </div>
+        <footer>
+            <div class="footer text-center">
+                <p>Smash Faces</p>
+            </div>
+        </footer>
     </div>
     
-    
+  <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>
   <script src="assets/js/app.js"></script>
-  <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
+  <script src="assets/js/mexico.js"></script>
+  <script src="assets/js/chile.js"></script>
+  <script src="assets/js/peru.js"></script>
+  
 </body>
 </html>
